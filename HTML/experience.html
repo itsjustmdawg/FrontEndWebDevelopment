@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Javascripts   Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script src="../Javascript/today.js" defer></script>
+
+  <link rel="shortcut icon" href="../Images/faviconLogo.jpg" type="image/jpg">
+
+  <title>My Experience @ SP</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navigation">
+    <div class="container-fluid" id="navigationDiv">
+
+      <div class="" id="navLogo">
+        <a href="./index.html"><img src="../Images/navLogo.png" alt="logo"></a>
+      </div>
+
+      <div id="navSocials">
+        <a href="https://www.instagram.com/itsjustmdawg/?hl=en" id="insta" target="_blank"><i
+            class="bi bi-instagram m-2"></i></a>
+        <a href="https://github.com/itsjustmdawg" id="git" target="_blank"><i class="bi bi-github m-2"></i></a>
+        <a href="https://www.youtube.com/channel/UCWOishL0Dwf0CXKYbWLszhw" id="youtube" target="_blank"><i
+            class="bi bi-youtube m-2"></i></a>
+        <a href="https://www.linkedin.com/in/mahesha-uthayakumar-56b078230/" id="linkedin" target="_blank"><i
+            class="bi bi-linkedin m-2"></i></a>
+        <a href="mailto:MAHESHA.22@ichat.sp.edu.sg" id="gmail"><i class="bi bi-envelope m-2"></i></a>
+      </div>
+
+      <button class="navbar-toggler ms-auto" id="navButton" type="button" data-bs-toggle="collapse"
+        data-bs-target="#nestDiv1" aria-controls="nestDiv1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="nestDiv1">
+        <div class="navbar-nav nav-pills p-2 text-center" id="nestDiv2">
+          <a class="nav-item nav-link text-white" href="./index.html">About Me</a>
+          <a class="nav-item nav-link text-white" href="./career.html">Career Options</a>
+          <a class="nav-item nav-link active bg-dark text-white" aria-label="active" href="./experience.html">My
+            Experience @ SP</a>
+          <a class="nav-item nav-link text-white" href="./feedback.html">Feedback</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title -->
+  <div class="container-fluid p-5 bg-dark justify-content-center">
+    <p class="text-white text-center h1">Courses Offered @ SP</p>
+    <p class="text-white text-center h5 fst-italic">
+      These courses are all part of the School Of Computing of Singapore
+      Polytechnic as of
+    </p>
+    <!-- Date Today Using JS -->
+    <p id="DATE" class="text-primary text-center h4"></p>
+  </div>
+
+  <!-- Table -->
+  <div class="text-dark text-center" id="tableDiv">
+    <table class="table table-bordered border-white text-white" id="table">
+      <thead>
+        <tr>
+          <th>Diploma in Applied AI and Analytics (S30)<img src="../Images/daaa.jpg" alt="daaa"
+              class="img-fluid rounded-circle" id="daaa"></th>
+          <th>Common ICT Programme (S32)<img src="../Images/dcitp.jpg" alt="dcitp" class="img-fluid rounded-circle"
+              id="dcitp"></th>
+          <th>Diploma in Infocomm Security Management (S54)<img src="../Images/dism.jpg" alt="dism"
+              class="img-fluid rounded-circle" id="dism"></th>
+          <th>Diploma in Information Technology (S69)<img src="../Images/dit.jpg" alt="dit"
+              class="img-fluid rounded-circle" id="dit"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            The Diploma in Applied Artificial Intelligence and Analytics (DAAA) is a 3-year full-time diploma course
+            offered
+            by the School of Computing in Singapore Polytechnic. Through this course, students will be able to develop
+            the
+            necessary skills
+            to thrive in the Artificial Intelligence domain. The modules that students will have to take include
+            Fundamentals of Programming, Statistics for Data Science, Programming for Data Analytics, Data Visualisation
+            etc.
+            Students in Year 2 or Year 3 of the course, will be able to opt for the Industry Now Curriculum (INC)
+            Pathway.
+            After graduating with a Diploma in AI and Analytics, graduates will be to look forward to exciting career
+            options such
+            as AI Applications Developer, Data Analyst, Data Scientist and many more.
+          </td>
+          <td>
+            The Common ICT Programme (DCITP) is a semester-long programme that is designed to aid students
+            who have not yet decided on which course they would like to pursue. At the end of Year 1 Semester 1,
+            DCITP students will have to make an informed choice in selecting one of the three IT courses available at
+            School of Computing. In the whole span of the programme, students will take modules such as Fundamentals of
+            Programming,
+            Mathematics, Fundamentals of Computing and etc.
+          </td>
+          <td>
+            The Diploma in Infocomm Security Management (DISM) is a 3-year full-time diploma course offered
+            by the School of Computing in Singapore Polytechnic. This course allows students who are passionate in
+            nullifying cyber threats to further develop their skills in doing so. The curriculum involved covers
+            important
+            aspects such as security technology, security management, law, teamwork and communication and information
+            technology.
+            Some of the modules that students will take are Fundamentals of Programming, Network Fundamentals,
+            Linux Administration and Seurity, Applied Cryptography, Digital Forensics and Investigation, Ethical Hacking
+            and Defences
+            etc. Students in Year 2 or Year 3 of the course will be able to opt for the Industry Now Curriculum (INC)
+            Pathway.
+            After graduation, students of DISM will be able to hold job roles such as Security Engineer, Software
+            Engineer
+            and many more.
+          </td>
+          <td>
+            The Diploma in Information Technology (DIT) is a 3-year full-time diploma course offered
+            by the School of Computing in Singapore Polytechnic. This course provides students an opportunity to
+            focus on Software and Applications development with three specialist tracks namely Software Development,
+            User Experience (UX) and Immersive Simulation. Students will only have to pick one specialist track.
+            This course allows students to also work with leading industry companies in Singapore such as Microsoft,
+            Accenture, GovTech, DBS and many more through internship opportunities and project collaborations. Among the
+            modules
+            that students will have to take are Fundamentals of Programming, Front-End Web Development, Design for User
+            Interaction,
+            Back-End Web Development, Mobile Application Development etc. Students will also have to undertake the
+            modules
+            that
+            have to be completed under the specialist track that they chose.
+            Students in Year 2 or Year 3 of the course will be able to opt for the Industry Now Curriculum (INC)
+            Pathway.
+            The job roles that can be held by DIT graduates are Software Engineer, Scrum Master and many more.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="container-fluid p-5" id="studentLife">
+    <p class="text-white text-center h2">My Student Life @ SP</p>
+    <!-- Figure & Figurecaption -->
+    <div class="row-12">
+      <figure class="col-sm-12 col-md-6 col-lg-4 my-3 text-center mx-auto" id="fc4">
+        <img src="../Images/foodcourt4.jpg" class="rounded-top rounded-bottom" width="200" height="200" alt="fc4">
+        <figcaption class="text-white">My Favourite Foodcourt in SP (Foodcourt 4)!</figcaption>
+      </figure>
+    </div>
+
+    <div class="row-12">
+      <p class="h5 text-center text-white">
+        I spend my days in SP by eating good food around SP with friends and studying while sipping a cold Grapefruit
+        McFizz from McDonalds :D
+      </p>
+    </div>
+
+    <div class="row-12">
+      <figure class="col-sm-12 col-md-6 col-lg-4 my-3 text-center mx-auto" id="spectrum">
+        <img src="../Images/spectrum.jpg" class="rounded-top rounded-bottom" width="200" height="200" alt="spectrum">
+        <figcaption class="text-white">My Favourite Lepak Spot in SP (Spectrum)!</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5" id="whySP">
+    <p class="text-dark text-center h2">Why Did I Choose DIT @ SP?</p>
+    <p class="text-center h5">
+      PASSION! Yes, I joined SP's Information Technology course as I am very passionate about coding and I believe
+      that doing so would aid me in reaching my goal which is to become a skilled fullstack developer after I graduate
+      from SP.
+    </p>
+    <p class="text-center h5">
+      To prove my skills in coding, here is a Password Generator that generates strong passwords to increase the
+      security of your account. This simple application was created using Javascript.
+    </p>
+    <!-- Password Generator Using JS -->
+    <div>
+    <section class="login-clean">
+      <form method="post">
+        <p class="text-center h1 mt-5">Password Generator</p>
+        <div class="mt-3 mb-3"></div>
+        <div class="mb-3">
+          <input class="form-control text-center" type="text" id="pass"
+            placeholder="Click the Generate Password Button">
+        </div>
+        <div class="mb-3 ">
+          <button class="btn btn-primary re w-100 " type="button" onclick="copy()">
+            <i class="fa fa-copy "></i>&nbsp; Copy</button>
+          <button class="btn btn-danger d-block w-100 " type="button" onclick="generator();">Generate Password</button>
+        </div>
+      </form>
+    </section>
+    </div>
+    <script src="../Javascript/password.js" defer></script>
+  </div>
+  <footer>
+    <div class="footer text-center bg-dark" id="returnTop"><a href="#top" class="text-white text-decoration-none">^ Back to the top ^</a></div>
+  </footer>
+</body>
+</html>
+
+<!-- Images Source 
+https://www.pexels.com/
+https://www.google.com/imghp?hl=en
+https://www.canva.com/
+https://osau.com/explore-experience/365/45-questions-with-samantha-singapore-singapore-polytechnic
+https://p1922644.neocities.org/foodcourt4.html
+https://www.sp.edu.sg/soc
+-->

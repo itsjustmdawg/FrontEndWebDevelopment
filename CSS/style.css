@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* CA1 CSS Styles Page */
+/* Author: Mahesha Uthayakumar */
+
+
+/* Navigation Styles */
+nav#navigation {
+    background-color: rgb(52, 58, 64);
+}
+
+nav#navigation>div#navigationDiv>div#navSocials>a {
+    color: white;
+}
+
+nav#navigation>div#navigationDiv>div#navSocials>a#insta:hover {
+    color: rgb(251, 57, 88);
+}
+
+nav#navigation>div#navigationDiv>div#navSocials>a#git:hover {
+    color: black;
+}
+
+nav#navigation>div#navigationDiv>div#navSocials>a#youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+nav#navigation>div#navigationDiv>div#navSocials>a#linkedin:hover {
+    color: rgb(10, 102, 194);
+}
+
+nav#navigation>div#navigationDiv>div#navSocials>a#gmail:hover {
+    color: burlywood;
+}
+
+
+nav#navigation>div#navigationDiv>div#navLogo>a>img {
+    width: 56px;
+    height: 56px;
+}
+
+
+nav#navigation>div#navigationDiv>div#nestDiv1>div#nestDiv2>a:hover {
+    background-color: rgb(108, 117, 125);
+    box-shadow: 0 0 0 5px rgba(255, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+
+
+/* Body Styles */
+body#about {
+    background-image: repeating-linear-gradient(red, purple 10%, cyan 20%);
+}
+
+body#feedback {
+    background-image: repeating-radial-gradient(red, blue 10%, green 20%);
+}
+
+
+div#myPersonality>div#myModal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+div#myPersonality>div#myModal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+div#myPersonality>div#myModal>div.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div#myPersonality>div#personalityCard>div#divNest1>div#divNest2>div#divNest3>#divNest4>a#modalPopButton:hover {
+    background-color: red;
+}
+
+div#studentLife{
+    background-image: repeating-linear-gradient(red, black);
+}
+
+div#tableDiv{
+    background-image: repeating-radial-gradient(red, blue, black);
+}
+
+div#whySP{
+    background-image: repeating-linear-gradient(orange, cyan);
+
+}
+
+div#tableDiv > table#table > thead > tr > th > img#daaa{
+    filter: contrast(120%);
+}
+
+div#tableDiv > table#table > thead > tr > th > img#dcitp{
+    filter: contrast(120%);
+}
+
+div#tableDiv > table#table > thead > tr > th > img#dism{
+    filter: contrast(120%);
+}
+
+div#tableDiv > table#table > thead > tr > th > img#dit{
+    filter: contrast(120%);
+}
+
+/* Footer Styles */
+footer>div#returnTop>a:hover {
+    background-color: grey;
+}
