@@ -1,4 +1,4 @@
-# FrontEndWebDevelopment
+# My First Website (not launched yet :])
 Feel free to use this website as an inspiration for your upcoming web-development project!
 
 I have utilised basic HTML, CSS and JS functions and methods to create this website.
